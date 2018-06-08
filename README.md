@@ -33,6 +33,7 @@ This is a CircleProgress Dependency library. I'm a Chinese, my English is not ve
         
 开启方法:
         //获取布局文件里该自定义View的Id:
+        
         CircleProgress circleProgress = findViewById(R.id.circleProgress);
         
         调用自定义View里面的方法:
@@ -58,8 +59,10 @@ This is a CircleProgress Dependency library. I'm a Chinese, my English is not ve
      
  改变画笔颜色:
  例如:  
+ 
         //获取需要改变颜色的画笔
         Paint circlePaint = circleProgress.getCirclePaint();
+        
         //改变颜色
         circlePaint.setColor(Color.parseColor("#000000"));
         
