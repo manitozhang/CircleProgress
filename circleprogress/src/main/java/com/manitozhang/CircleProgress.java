@@ -89,28 +89,12 @@ public class CircleProgress extends View {
         this.cycle = cycle;
     }
 
-    public int getTranslateX() {
-        return translateX;
-    }
-
-    public void setTranslateX(int translateX) {
-        this.translateX = translateX;
-    }
-
     public int getWaveHeight() {
         return waveHeight;
     }
 
     public void setWaveHeight(int waveHeight) {
         this.waveHeight = waveHeight;
-    }
-
-    public Point getStartPoint() {
-        return startPoint;
-    }
-
-    public void setStartPoint(Point startPoint) {
-        this.startPoint = startPoint;
     }
 
     public int getWaveSpeech() {
