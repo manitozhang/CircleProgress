@@ -2,7 +2,7 @@
 
 # 先上个效果图 #
 
-![效果图](http://25.io/mou/Mou_128.png)
+![效果图](https://github.com/manitozhang/CircleProgress/blob/master/circleprogress/src/main/res/drawable/show.png)
 
 
 This is a CircleProgress Dependency library. I'm a Chinese, my English is not very well. So I'll speak Chinese next.
