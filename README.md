@@ -21,26 +21,29 @@ This is a CircleProgress Dependency library. I'm a Chinese, my English is not ve
 
 在布局里直接加载这个自定义View
 例如:   
+
       <com.manitozhang.CircleProgress
         android:id="@+id/circleProgress"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
         
-开启方法:
-        获取布局文件里该自定义View的Id:
         
+开启方法:
+        //获取布局文件里该自定义View的Id:
         CircleProgress circleProgress = findViewById(R.id.circleProgress);
         
         调用自定义View里面的方法:
-        第一个参数为进度的最大值,第二个参数为到达最大值所需要使用的时间
-        
+        第一个参数为进度的最大值,第二个参数为到达最大值所需要使用的时间,以毫秒为单位
         circleProgress.setProgress(100,5000);
         
 对进度的监听:
+
         circleProgress.setOnCircleProgressListener();
         返回的int值即进度
-        
-高级用法,设置圆形进度条的各个参数:
+       
+       
+       
+高级进阶用法,设置圆形进度条的各个参数:
 
      wavePaint;     //波动画笔
      textPaint;     //百分比字画笔
