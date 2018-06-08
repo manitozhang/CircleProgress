@@ -69,8 +69,8 @@ This is a CircleProgress Dependency library. I'm a Chinese, my English is not ve
         //改变颜色
         circlePaint.setColor(Color.parseColor("#000000"));
         
- # 其他改变属性的方法亦是如此! #
+  其他改变属性的方法亦是如此! 
  
- 后续会持续进行更新#
+ # 后续会持续进行更新 #
         
         
