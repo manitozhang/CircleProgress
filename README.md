@@ -8,12 +8,15 @@ This is a CircleProgress Dependency library. I'm a Chinese, my English is not ve
 使用方法:
 
 添加  
+
         maven { url 'https://jitpack.io' }
+        
         
 到你的工程下的build.gradle ---> allprojects ---> repositories 的标签下
 
 
 添加
+
     implementation 'com.github.manitozhang:CircleProgress:1.0'
 
 到你的 moudle 下的 dependencies 标签下
