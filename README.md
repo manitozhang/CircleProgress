@@ -13,7 +13,7 @@ This is a CircleProgress Dependency library. I'm a Chinese, my English is not ve
 
 添加  
 
-        maven { url 'https://jitpack.io' }
+        _ maven { url 'https://jitpack.io' } _
         
         
 到你的工程下的build.gradle ---> allprojects ---> repositories 的标签下
@@ -21,7 +21,7 @@ This is a CircleProgress Dependency library. I'm a Chinese, my English is not ve
 
 添加
 
-    implementation 'com.github.manitozhang:CircleProgress:1.0'
+    _ implementation 'com.github.manitozhang:CircleProgress:1.0' _
 
 到你的 moudle 下的 dependencies 标签下
 
